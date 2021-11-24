@@ -4,4 +4,17 @@
 @Title : check emp[loyee attendance
 """
 """
-print("Welcome to employee wage calculator")
+Description:
+     Check whether a employee is present or not  
+Parameter:
+      
+Return:
+       randint is a function it return random integer
+"""
+import random
+FULL_TIME=1
+empCheck = random.randint(0, 2)
+if empCheck==FULL_TIME:
+    print("Employee is Present ")
+else:
+    print("Employee is Absent ")    
